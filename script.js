@@ -15,7 +15,6 @@ function getJoke()
 function addtoFavourites()
 {
     const favbtn = document.getElementById("favbtn");
-    //favbtn.innerText = "Add to Favourite";
     const favJokeContainer = document.getElementById("favorites-content");
     const favJoke = document.createElement("div");
     const jokeContent = document.createElement("p");
